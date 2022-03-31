@@ -22,6 +22,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       score++;
       document.querySelector('.score').textContent = score;
+      document.querySelector('.highscore').textContent = score;
     }
   }
   if (score > 1) {
